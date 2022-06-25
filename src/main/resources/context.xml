@@ -10,6 +10,6 @@
     <bean id="procesorAMD" class="exemplu.interfete.ProcesorAMD"/>
 
     <bean id="calculator" class="exemplu.interfete.Calculator">
-        <property name="procesor" ref="procesorAMD"/>
+        <constructor-arg index="0" ref="procesorIntel"/>
     </bean>
 </beans>
