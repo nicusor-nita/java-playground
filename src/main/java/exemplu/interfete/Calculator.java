@@ -3,10 +3,10 @@ package exemplu.interfete;
 public class Calculator{
 
     private Procesor procesor;
-    void lucreaza(){
+    public void lucreaza(){
         procesor.compute();
     }
-    void setProcesor(Procesor procesor){
+    public void setProcesor(Procesor procesor){
         this.procesor = procesor;
     }
 }
